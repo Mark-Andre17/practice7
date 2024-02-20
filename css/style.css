@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6,p,img,a{
     padding: 0;
 }
 body{
-    width: 1920px;
+    max-width: 1920px;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -315,12 +315,17 @@ body{
     padding-bottom: 67px;
 }
 .portfolio{
+    max-width: 1920px;
     margin-bottom: 150px;
 }
 .portfolio-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+}
+.portfolio-box__item{
+    max-width: 100%;
+    height: 407px;
 }
 .question-title{
     text-align: center;
